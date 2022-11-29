@@ -844,6 +844,10 @@ fieldset:disabled a.btn {
       font-size: 1rem;
     }
 
+    .calender{
+  
+    }
+
     .aboutkhoj{
       display: flex;
       flex-direction: row;
@@ -902,6 +906,14 @@ fieldset:disabled a.btn {
       flex-wrap: wrap;
     }
     }
+
+    @media(max-width:920px){
+      .catalyst{
+        padding: 0;
+        margin: 40px 0;
+        width: 70%;
+      }
+    }
      
     @media(max-width:570px){
       .aboutkhoj p{
@@ -925,7 +937,7 @@ fieldset:disabled a.btn {
         width: 70%;
       }
     }
-     
+    
     @media(max-width:570px){
       .aboutkhoj p{
         text-align: left;
@@ -2630,7 +2642,7 @@ textarea.form-control {
       .add{
       margin: 0 25px;
       /* border: 1px solid white; */
-      width: 30%;
+      width: 39%;
       }
 
       .social{
@@ -2645,7 +2657,7 @@ textarea.form-control {
       .contact{
         margin: 0 25px;
         /* border: 1px solid white; */
-        width: 30%;
+        width: 20%;
 
 
       }
